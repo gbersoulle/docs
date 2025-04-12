@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Tech Docs
+site_description: Documentation for tools, services, and operating systems
+site_author: gbersoulle
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Tools:
+      - Graphicals :
+        - Rofi : tools/graphicals/rofi.md
+  - Services:
+      - Template: services/service-template.md
+  - Operating Systems:
+      - Template: os/os-template.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - def_list
+
