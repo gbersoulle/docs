@@ -9,6 +9,10 @@ nav:
   - Tools:
       - Graphicals :
         - Rofi : tools/graphicals/rofi.md
+        - Polybar : tools/graphicals/polybar.md
+      - Web :
+        - MKdocs: tools/web/mkdocs.md
+
   - Services:
       - Template: services/service-template.md
   - Operating Systems:
